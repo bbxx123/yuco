@@ -1,3 +1,126 @@
+/* 版心 */
 w {
     width: 1448px;
+}
+
+/* 导航开始 */
+.nav {
+    overflow: hidden;
+    width: 1448px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.50);
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 162px;
+    height: 54px;
+    margin-left: 134px;
+    line-height: 78px;
+}
+
+.nav_item ul li {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 78px;
+    float: left;
+}
+
+.nav_item ul li:first-child {
+    margin-left: 582px;
+}
+
+.nav_item ul li:nth-child(2) {
+    margin-left: 60px;
+}
+
+.nav_item ul li:nth-child(3) {
+    margin-left: 76px;
+}
+
+.nav_item ul li:nth-child(4) {
+    margin-left: 60px;
+}
+
+/* 导航结束 */
+
+/* 页脚开始 */
+.footer {
+    position: relative;
+    width: 1448px;
+    margin: 0 auto;
+    height: 215px;
+    background: #FFFFFF;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+.number span {
+    display: block;
+    float: left;
+}
+
+.number span:first-child {
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 49px;
+    margin-left: 131px;
+}
+
+.number span:last-child {
+    font-family: MicrosoftYaHei;
+    font-size: 36px;
+    color: #333333;
+    margin-top: 41px;
+    margin-left: 24px;
+}
+
+.address {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: 108px;
+    margin-left: 131px;
+}
+
+.icon_item ul li {
+    float: left;
+}
+
+.icon_item>ul:first-child>li:first-child {
+    position: absolute;
+    right: 245px;
+    top: 66px;
+}
+
+.icon_item>ul:last-child>li:first-child {
+    position: absolute;
+    right: 133px;
+    top: 66px;
+}
+
+.icon_item>ul:first-child>li:last-child {
+    position: absolute;
+    right: 256px;
+    bottom: 51px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+}
+.icon_item>ul:last-child>li:last-child {
+    position: absolute;
+    right: 144px;
+    bottom: 51px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
 }
